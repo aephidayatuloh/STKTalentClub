@@ -34,7 +34,7 @@ ui <- fluidPage(
   )
 
 server <- function(input, output, session){
-  # membuat server
+  # membuat server 
   
   output$nilai <- renderPrint({
     data1 <- strsplit(input$data, " ")
